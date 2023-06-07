@@ -1,0 +1,50 @@
+body{
+    background-image: url(image/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+   
+  
+  }
+  
+  h1 {
+    color: #333;
+
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px;
+    background-color: rgb(185, 199, 199);
+    width: 300px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    border-radius: 8px;
+    border: 2px;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  li {
+    list-style-type: none;
+    margin-top: 10px;
+  }
+  
+  li.completed {
+    text-decoration: line-through;
+    color: #888;
+  }
